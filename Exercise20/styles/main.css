@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+.main-content{
+    width:960px;
+    margin:20px auto;
+}
+
+.fl{
+    float:left;
+    width:50%;
+}
+
+.fr{
+    float:right;
+    width:50%;
+}
+
+
+@media only screen and (max-width: 400px) {
+    body {
+        color: blue;
+    }
+
+@media only screen and (max-width: 800px) and (min-width: 400px) {
+  p {
+    background-color: grey;
+  }
+}
+
+@media only screen and (min-width: 960px)  {
+  ol {
+    font-size: 20px;
+  }
+}
